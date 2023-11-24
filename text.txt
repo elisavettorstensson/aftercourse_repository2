@@ -1,1 +1,2 @@
 This is my fist text in this second repository
+I thought to do these changes 
