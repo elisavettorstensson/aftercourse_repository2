@@ -1,0 +1,256 @@
+---
+title: Submission request text templates
+format:
+  html:
+    code-overflow: wrap
+---
+
+Communication templates in the [textile format](https://textile-lang.com) for use with Redmine.
+
+## Confirmation of submission request {#confirmation-of-submission-request}
+
+> Dear \[Name of Submitter\],
+>
+> Thank you for your submission request to FEGA Sweden. Your request has now been placed in our queue system and has been assigned with the issue number \[Redmine issue number\]. When we start processing your request, we will evaluate whether it falls within the scope of FEGA Sweden or not (learn more about our "assessment criteria":<https://fega.nbis.se/submission/is-fega-sweden-the-right-archive.html>). As part of the evaluation we will contact the data controller to confirm that the data can be deposited in FEGA Sweden.
+>
+> Should you have any questions or concerns, please do not hesitate to contact us.
+>
+> Best regards,
+>
+> FEGA Sweden Helpdesk Team
+
+## Decision to not proceed with out of scope submission {#decision-to-not-proceed-with-out-of-scope-submission}
+
+> Dear \[Name of Submitter\],
+>
+> Your submission request with the issue number \[Redmine issue number\] has now been evaluated. It has been concluded that your request falls outside the scope of FEGA Sweden since \[include a short motivation\]. Consequently, we regret to inform you that we will not be able to proceed with it. You are welcome to contact us if you have any questions regarding the decision.
+>
+> Please feel free to reach out to us at FEGA Sweden again if you have any other data that you wish to submit. We are here to assist you.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Setting up an initial Zoom-meeting
+
+> Dear \[Name of Submitter\],
+>
+> My name is \[Name of helpdesk officer\] and I have been assigned to review your submission request. In order to complete the review, I would like to ask you a few questions regarding your request. Would you be available for a meeting over Zoom sometime in the \[next few days/coming week\]? The meeting shouldn't take more than 30 minutes.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Asking for additional information
+
+> Dear \[Name of Submitter\],
+>
+> My name is  \[Name of helpdesk officer\], and I have been assigned to review your submission request at FEGA Sweden \[Redmine issue number\]. To complete the review, which I will do with my colleague \[Name of helpdesk officer\], we require some additional information. Please fill in the attached PDF form and return it by replying to this email. Kindly ensure that you also provide copies of your ethical permits. In more detail, please attach both the application for the ethical approval (original application and any renewal applications) and the decision(s) from the Swedish Ethical Review Authority.
+>
+> The information you provide will be forwarded to the Data Access Unit (DAU) or the Data Research Office of the organization you have listed as the data controller to verify your submission request.
+>
+> If you have any questions or concerns, please don't hesitate to contact us by replying to this email.
+>
+> Thank you for your cooperation and understanding.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Asking DAU to approve submission request
+
+>**Ämne:** FEGA Sweden: Godkännande av deponering för deponeringsärende \[ärendenr\]
+>
+> Hej [Namn på kontaktperson],
+>
+> Vi har mottagit en begäran från en forskare om att deponera data i FEGA Sweden, vårt ärendenummer #[ärendenr].
+>
+> Utifrån informationen i det bifogade formuläret och den etiska dokumentationen bedömer vi att [namn på organisation] sannolikt är personuppgiftsansvarig.
+>
+> För att kunna gå vidare ber vi er vänligen bekräfta att datan tillhör er organisation och att ni godkänner deponeringen. 
+>
+> När vi mottagit er bekräftelse och godkännande kommer vi att fortsätta med deponeringen. Observera att ni kommer att informeras innan publik metadata tillgängliggörs.
+> 
+> Tack för ert samarbete och tveka inte att kontakta oss om ni har några frågor. 
+>
+> Med vänliga hälsningar,
+>
+>\[För- och efternamn\], FEGA Sweden
+
+## Decision to not proceed with submission after rejection by DAU
+
+> Dear \[Name of Submitter\],
+>
+> I regret to inform you that your submission request with the issue number \[Redmine issue number\] has been rejected by \[Name of the DAU\] due to the reason \[short motivation\]. Consequently, we will not be able to proceed with your request.
+>
+> Should you have any questions or require further clarification regarding this decision, please do not hesitate to contact us. We are here to assist you in any way we can.
+>
+> Thank you for your understanding and cooperation.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Decision to proceed with your submission request and instructions for EGA registration
+
+> Dear \[Name of Submitter\],
+>
+> We are pleased to inform you that your submission request with the issue number [Redmine issue number] has been approved by [Name of the DAU]. We will now proceed with your request. Here is what you need to do next.
+>
+> **Check EGA Account**
+>
+> - If you already have an EGA account, let us know the email address you used when creating your account, and we will add you to the “FEGA Sweden Submitter Portal”: <https://submission.sweden.ega-archive.org/>.
+> - If not, please:
+> a.   Register at EGA: Fill out the “registration form” <https://ega-archive.org/register/> at EGA and wait for approval.
+ >b.   Notify us: Once approved, provide us with the email address you used when creating your account, and we will add you to the Submitter Portal.
+> 
+> If you have any questions or need further assistance, feel free to reach out to us. We are here to help.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Instructions for metadata registration and data upload to FEGA Sweden
+
+> Dear \[Name of submitter\],
+>
+> Welcome to the FEGA Sweden Submitter Portal\! You have now been added as a submitter and can begin the process of creating your submission by registering your metadata and uploading your data. Below, we’ve provided simplified instructions to help you get started.
+>
+> **Steps to Follow:**
+>
+>1. **Log in to the Submitter Portal**  
+   Log in to the FEGA Sweden Submitter Portal \[[https://submission.sweden.ega-archive.org/](https://submission.sweden.ega-archive.org/)\] to access your submission workspace. For optimal performance, it’s recommended to use your web browser in **Incognito mode** when accessing the Submitter Portal.  
+>
+>2. **Take the Tour**  
+   Before creating your submission, click the “Take the Tour” button (located next to your name in the portal). This will guide you through the steps for registering metadata.
+>
+>3. **Create a Submission**  
+   Once logged in, click the green "Create a Submission" button to start your submission.
+>
+>4. **Encrypt and Upload Your Data**  
+   In order to enter some of your metadata successfully (such as Runs, Analysis and Datasets), you must upload your data files first by following the steps outlined in the Data Upload Guide \[ [https://fega.nbis.se/submission/uploading-data.html](https://fega.nbis.se/submission/uploading-data.html) \]
+>
+>**Important Notices:**
+>
+>* Some metadata fields in the Submitter Portal can only be completed after your files are uploaded.
+>
+>* Please note that some pages on the FEGA Sweden website contain outdated content. If you encounter any issues with these parts, please contact us for further clarification.
+>
+>* Do not press the **"Finalise" button** until you have contacted us for a review of your submission.  
+>
+>* For further guidance, you can watch the following **YouTube video,** which demonstrates the EGA Submitter Portal. This portal is similar to the FEGA Sweden Submitter Portal that you will use for your submission. Please note that since the video is two years old, there may be some updates or differences. 
+>
+>**Here is the link:** [https://www.youtube.com/watch?v=o81GDFwXiGE\&t=98s](https://www.youtube.com/watch?v=o81GDFwXiGE&t=98s)
+>
+>We understand that this might feel new and challenging. Please don’t hesitate to reach out if you need assistance—we’re here to guide you every step of the way.
+>
+>Best regards,  
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Supplementary Metadata Instructions for Submitters
+
+> Dear \[Name of the submitter\],
+>
+> We’ve noticed that you have started working on your submission in our submitter portal. I’d like to share some tips for structuring your metadata effectively. Properly organizing your metadata from the start can significantly reduce the need for extensive reviews and time-consuming revisions later on.
+>
+> **Metadata Guidelines for the Submitter Portal:**
+> 
+> **Studies**
+>
+> * **Title**: Write a concise title (3–20 words) that introduces your project.  
+> * **Description**: Write a short project definition (3–5 sentences) covering the project's background, goals, and key details.
+>
+> Examples of well-written study titles and descriptions:
+>
+> See this example from SweGen project: 
+>
+> * [https://ega-archive.org/studies/EGAS50000000906](https://ega-archive.org/studies/EGAS50000000906)  
+>
+> See this example from Swedish Childhood Tumour Biobank: 
+>
+> * [https://ega-archive.org/studies/EGAS50000000209](https://ega-archive.org/studies/EGAS50000000209)
+> 
+> **Samples**
+>
+> * Ensure no [personal data](https://gdpr.eu/eu-gdpr-personal-data/) (e.g., names, national ID numbers, addresses) is included.  
+> * In case you have a large number of Samples to register, use the batch upload feature.
+>
+> 
+> **Experiments**
+>
+>* **Design Name**: Summarise the library preparation, including the scientific goal, experimental conditions, and key methodology.  
+>
+> **Tip**: Your sequencing facility report often includes relevant descriptions—feel free to adapt that text when entering the *Design Name*.
+>
+> **Runs**
+>
+>* In case you have a large number of Runs to register, use the batch upload feature.
+>
+>**Analyses**
+>
+>* **Title**: Write a short and descriptive title of the analysis. 
+>
+>Here is an example from the SweGen project: *SweGen genetic variation*
+>
+>* **Description**: Write a detailed explanation for the analysis. This should describe the experiment, methods, and goals.  
+>
+>Here is an example from the SweGen project:
+>
+>*Single nucleotide variants in VCF format and associated index files. FASTQ files  generated by Illumina HiSeq X Ten WGS were analyzed using the nf-core pipeline Sarek, which includes pre-processing, alignment to the human GRCh38 reference genome, and germline variant calling*.
+>
+> **Notice:**
+>
+>* Consider including relevant metadata in this part of the submission. If you have a BAM/BAI or CRAM/CRAI pair, VCF and phenotype linkage to samples, it's best to include them under the **“Analyses”** tab.  
+>* Ideally, the BAM or CRAM files should be included under the **"Analyses"** as this allows you to provide detailed metadata, such as the reference genome and the chromosomes involved, which adds important context for future researchers accessing your data.
+>
+> If these files are not added here, crucial metadata may be omitted, potentially limiting the reusability and interpretability of the data in future research.
+>
+>**Datasets**
+>
+>* **Title**: Write a concise title (3–20 words) describing the dataset content.  
+>* **Description**: Provide a 3–4 sentence summary including sample details, file types, and experimental methods.  
+>
+>* **Policy**: Manually enter the policy accession number you have received from us (EGAPXXXXXXXXXXX), as copy-pasting might not work.
+>
+>Examples of well-written dataset titles and descriptions:
+>
+> See these examples from SweGen project:  
+>
+>  * [https://ega-archive.org/datasets/EGAD50000001323](https://ega-archive.org/datasets/EGAD50000001323)  
+>  * [https://ega-archive.org/datasets/EGAD50000001324](https://ega-archive.org/datasets/EGAD50000001324)  
+>
+> See these examples from Swedish Childhood Tumour Biobank:  
+>
+>  * [https://ega-archive.org/datasets/EGAD50000000298](https://ega-archive.org/datasets/EGAD50000000298)  
+>  * [https://ega-archive.org/datasets/EGAD50000000300](https://ega-archive.org/datasets/EGAD50000000300)
+>
+>If you have any questions while working on these sections, please don’t hesitate to refer to this and previous emails for additional guidance or reach out directly. We’re here to support you every step of the way\!
+>
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Information to DAU about upcoming release
+
+>**Ämne:** FEGA Sweden: Kommande publicering av metadata – deponering: \[ärendenr\]
+>
+>Hej \[Namn på kontaktperson\],
+>
+>Vi vill härmed informera er om att metadata kopplad till deponeringsärende \[ärendenr\] kommer att publiceras på ega-archive.org den \[datum för publiceringen\]. Ni har tidigare godkänt denna deponering och detta mejl är enbart för kännedom.
+>
+>Observera att endast **metadata** blir synlig för att forskare ska kunna hitta data. Själva data blir tillgängliga först efter en godkänd ansökan om tillgång, enligt den överenskomna processen för utlämning av data i FEGA Sweden.
+>
+>Nedan finner ni länkar till den/de studier och dataset som kommer att publiceras:
+>
+>- **Studie:** \[namn och infoga länk(ar)\]
+>- **Dataset:** \[namn och infoga länk(ar)\]
+>
+>Tveka inte att kontakta oss om ni har några frågor eller funderingar.
+>
+>Med vänliga hälsningar,
+>
+>\[För- och efternamn\], FEGA Sweden 
+
+

@@ -1,4 +1,129 @@
-This is my fist text in this second repository
-I thought to do these changes 
-This is my suggestions for a better text....
-I have some last proposal to do ... look at them too 
+---
+title: Submission request text templates
+format:
+  html:
+    code-overflow: wrap
+---
+
+Communication templates in the [textile format](https://textile-lang.com) for use with Redmine.
+
+## Confirmation of submission request {#confirmation-of-submission-request}
+
+> Dear \[Name of Submitter\],
+>
+> Thank you for your submission request to FEGA Sweden. Your request has now been placed in our queue system and has been assigned with the issue number \[Redmine issue number\]. When we start processing your request, we will evaluate whether it falls within the scope of FEGA Sweden or not (learn more about our "assessment criteria":<https://fega.nbis.se/submission/is-fega-sweden-the-right-archive.html>). As part of the evaluation we will contact the data controller to confirm that the data can be deposited in FEGA Sweden.
+>
+> Should you have any questions or concerns, please do not hesitate to contact us.
+>
+> Best regards,
+>
+> FEGA Sweden Helpdesk Team
+
+## Decision to not proceed with out of scope submission {#decision-to-not-proceed-with-out-of-scope-submission}
+
+> Dear \[Name of Submitter\],
+>
+> Your submission request with the issue number \[Redmine issue number\] has now been evaluated. It has been concluded that your request falls outside the scope of FEGA Sweden since \[include a short motivation\]. Consequently, we regret to inform you that we will not be able to proceed with it. You are welcome to contact us if you have any questions regarding the decision.
+>
+> Please feel free to reach out to us at FEGA Sweden again if you have any other data that you wish to submit. We are here to assist you.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Setting up an initial Zoom-meeting
+
+> Dear \[Name of Submitter\],
+>
+> My name is \[Name of helpdesk officer\] and I have been assigned to review your submission request. In order to complete the review, I would like to ask you a few questions regarding your request. Would you be available for a meeting over Zoom sometime in the \[next few days/coming week\]? The meeting shouldn't take more than 30 minutes.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Asking for additional information
+
+::: callout-important
+This template is not up-to-date. Please use the correct [provisional template](provisional-submission-text-templates.qmd) instead.
+:::
+
+> Dear \[Name of Submitter\],
+>
+> My name is \[Name of helpdesk officer\] and I have been assigned to review your submission request. In order to complete the review, I would need some additional information. Can you please provide the following:
+>
+> \[link to Google Form or list of any missing information such as "a PDF copy of your ethical approval"\]
+>
+> If you have any questions or concerns, please don't hesitate to contact us by replying to this email.
+>
+> Thank you for your cooperation and understanding.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Asking DAU to approve submission request
+
+> Dear \[Name of Representative of DAU/Name of DAU\],
+>
+> We have received a request to deposit data in FEGA Sweden with the following information:
+>
+> -   Study title: \[descriptive title of the study\]
+> -   Entity responsible for research (forskningshuvudman): \[name of entity responsible for research\]
+> -   Submitter: \[name and email\]
+> -   Principal investigator: \[name and email\]
+> -   Research participants: \[type of people included in the study and how they were selected\]
+> -   Type of data: \[short description of the type of data (e.g. "RNA sequence data")\]
+> -   File formats: \[file formats, e.g. CRAM, FASTQ, VCF\]
+> -   Number of files: \[total number of files\]
+> -   Total file size: \[estimated in GB or TB\]
+> -   Data controller: \[name of data controller\]
+> -   Personal data: \[types of personal data included\]
+> -   Sensitive personal data: \[types of sensitive personal data involved\]
+> -   Code key availability: \[whether a code key exists somewhere so that research participants can be contacted\]
+> -   Ethical approval: \[ethical approval registration number\]
+>
+> Could you please confirm that the data belongs to your organization and that you approve the submission request on behalf of your organization.
+>
+> When you have approved the request, we will proceed with the submission and contact you later concerning the selection of the Data Access Committee and Data Access Policy. You will also be informed before the dataset(s) are being released.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Decision to not proceed with submission after rejection by DAU
+
+> Dear \[Name of Submitter\],
+>
+> I regret to inform you that your submission request with the issue number \[Redmine issue number\] has been rejected by \[Name of the DAU\] due to the reason \[short motivation\]. Consequently, we will not be able to proceed with your request.
+>
+> Should you have any questions or require further clarification regarding this decision, please do not hesitate to contact us. We are here to assist you in any way we can.
+>
+> Thank you for your understanding and cooperation.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Decision to proceed with submission
+
+> Dear \[Name of Submitter\],
+>
+> I am pleased to inform you that your submission request with the issue number \[Redmine issue number\] has been approved. In order to proceed with your request, I hereby ask you to do the following:
+>
+> 1.  Create a user account at EGA by filling in their "registration form":<https://ega-archive.org/register/>. You will receive an email notification once your registration is approved (this may take a few days).
+>
+> 2.  Inform us once you receive the approval notification from EGA. We will then give you to access to the "Submitter Portal":<https://submission.sweden.ega-archive.org/> where you can start entering your metadata.
+>
+> If you have any questions or need further assistance, feel free to reach out to us. We are here to help.
+>
+> Best regards,
+>
+> \[Name of helpdesk officer\], FEGA Sweden
+
+## Information to DAU about upcoming release
+
+> Dear \[Name of Representative of DAU\],
+>
+> We hereby inform you that the Study \[Study ID\] submitted to FEGA Sweden by \[Name of Submitter\] will be released on \[date of release\] and thereby visible on [ega-archive.org](https://ega-archive.org).
+>
+> Best regards, \[Name of helpdesk officer\], FEGA Sweden
