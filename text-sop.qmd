@@ -1,1 +1,60 @@
+---
+title: "SOP 2: Assessing submission request"
+description: >
+  Make an initial assessment to find out if there are any obstacles
+  to deposit the data in FEGA Sweden.
+author: "FEGA Sweden Helpdesk Team"
+date: "2024-09-01"  # effective date
+published-title: "Effective date"
+doc-version: 2
+doc-approvals: NN, NN
+categories:
+  - FEGA Sweden
+  - data submission
+toc: false
+format:
+  html:
+    template-partials:
+      - "/template-partials/sops/title-block.html"
+---
 
+## Procedure
+
+1.  One of the FEGA Sweden Helpdesk members (HD member) working with the submission request issue changes the issue status to “In Progress” when starting to work on the issue.
+
+2.  The HD member evaluates if the submission request falls within the scope of FEGA Sweden:
+
+    -   Is the data of a supported type? (see documentation on [preparing data](https://fega.nbis.se/submission/preparing-data.html))
+    -   Does sharing of the data require controlled access?
+
+3.  If the submission request falls outside the scope of FEGA Sweden, the HD member sets the issue status to “closed” and informs the submitter (via Redmine) about the decision to not proceed with the request, including a short motivation (see template [Decision to not proceed with out of scope submission](../text-templates/submission-text-templates.html#decision-to-not-proceed-with-out-of-scope-submission)).
+
+4.  If the request falls within the scope of FEGA Sweden, the HD member contacts the submitter (via fega-sweden@nbis.se) and asks them to provide additional information using the PDF form for personal data and study information. The PDF form can be downloaded from the internal FEGA Sweden documentation (see Form for submission information).
+
+-The submitter is instructed to fill out the form and send it back, together with **ethical documentation** (e.g., an ethics approval or application) that helps identify the data controller (personuppgiftsansvarig).
+
+5.  Once the form is received, the HD member uploads both the **completed PDF form** and the **ethical documentation** to the Redmine issue. The HD members review the uploaded material.
+
+6.  The HD member checks if Uppsala University has established a general data processing agreement with the data controller for depositing data in FEGA Sweden (see [existing general processing agreements](https://fega.nbis.se/submission/complying-with-gdpr.html#do-you-have-a-data-processing-agreement-with-us)). 
+
+- If such an agreement **exists**, proceed with step 7.
+- If **no agreement exists**, the HD member informs the submitter that FEGA Sweden cannot accept their data until a general data processing agreement has been established between the parties.
+
+In some cases, provisional routines may apply (e.g., for Karolinska Institutet), and the HD member follows these established procedures.
+
+7.  The HD members evaluate the completeness of the information:
+
+    a. If the information is complete and a data processing agreement exists, the HD member sends an email to the DAU with information about the submission, asking for approval or rejection of the request [Asking DAU to approve submission request](../text-templates/submission-text-templates.qmd#asking-dau-to-approve-submission-request)). The communication with the DAU should be documented in Redmine.
+    b.  If information is missing or unclear, the HD member sends an email via Redmine to the submitter requesting the missing details (see template [Asking for additional information](../text-templates/submission-text-templates.qmd#asking-for-additional-information)). After receiving the additional information, if it is sufficient and appropriate, the HD member will proceed with step 7(a).
+
+8.  If the request is rejected by the DAU, the HD member changes the issue status to “closed” and informs the Submitter (via Redmine) about the decision to not proceed (see template [Decision to not proceed with submission after rejection by DAU](../text-templates/submission-text-templates.html#decision-to-not-proceed-with-submission-after-rejection-by-dau)).
+
+9.  If the submission request is approved by the DAU, the HD member informs the Submitter (via Redmine) about the decision to proceed with the request and provides instructions on how to create an EGA account  (see template [Decision to proceed with submission](../text-templates/submission-text-templates.qmd#decision-to-proceed-with-submission)).
+
+## Document history
+
+| Version | Date ready for approvals | Author(s)         |
+|---------|--------------------------|-------------------|
+|  1      | 2024-04-23               | Mattias Strömberg |
+|  2      | 2024-08-20               | Mattias Strömberg, Elisavet Torstensson |
+|  3      | 2025-10-30               | Elisavet Torstensson |
