@@ -1,22 +1,3 @@
----
-title: "SOP 2: Assessing submission request"
-description: >
-  Make an initial assessment to find out if there are any obstacles
-  to deposit the data in FEGA Sweden.
-author: "FEGA Sweden Helpdesk Team"
-date: "2024-09-01"  # effective date
-published-title: "Effective date"
-doc-version: 2
-doc-approvals: NN, NN
-categories:
-  - FEGA Sweden
-  - data submission
-toc: false
-format:
-  html:
-    template-partials:
-      - "/template-partials/sops/title-block.html"
----
 
 ## Procedure
 
@@ -50,11 +31,3 @@ In some cases, provisional routines may apply (e.g., for Karolinska Institutet),
 8.  If the request is rejected by the DAU, the HD member changes the issue status to “closed” and informs the Submitter (via Redmine) about the decision to not proceed (see template [Decision to not proceed with submission after rejection by DAU](../text-templates/submission-text-templates.html#decision-to-not-proceed-with-submission-after-rejection-by-dau)).
 
 9.  If the submission request is approved by the DAU, the HD member informs the Submitter (via Redmine) about the decision to proceed with the request and provides instructions on how to create an EGA account  (see template [Decision to proceed with submission](../text-templates/submission-text-templates.qmd#decision-to-proceed-with-submission)).
-
-## Document history
-
-| Version | Date ready for approvals | Author(s)         |
-|---------|--------------------------|-------------------|
-|  1      | 2024-04-23               | Mattias Strömberg |
-|  2      | 2024-08-20               | Mattias Strömberg, Elisavet Torstensson |
-|  3      | 2025-10-30               | Elisavet Torstensson |
