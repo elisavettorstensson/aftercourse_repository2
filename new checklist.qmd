@@ -7,19 +7,19 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ---
 
-### 1. **Studies**
+1. **Studies**
 
 * **Study title** should be a 3–20 word introduction of the project.  
 * **Study description** should be a 3–5 sentence definition of the project, including background, goals, and key details.  
   * **IF** the title and description align with these criteria → **move on to the next object.**  
-  * **IF** the title and/or description do not align (e.g., it is a copy of the title or does not describe the purpose of the study) → **return to the submitter for correction** and ask them to update the title and/or description, then re-finalize the submission.
+  * **IF** the title and/or description do not align (e.g., it is a copy of the title or does not describe the purpose of the study) → **return to the submitter for correction** and ask them to update the title and/or description, then re-finalise the submission.
 
 * **Rare cases**  
   * **IF** the submission reuses an existing study, which will be referenced in the experiment object → **move on to the next object.**
 
 ---
 
-### 2. **Samples**
+2. **Samples**
 
 * Samples **must not** contain personal data (e.g., names, national ID numbers, addresses).  
   * **IF** the samples do not contain personal data → **move on to the next object.**  
@@ -30,7 +30,7 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ---
 
-### 3. **Experiments**
+3. **Experiments**
 
 * The study ID can be new (no EGAD) or existing (`EGAD5XXX`, `EGAD000100XXX`). Both are acceptable.  
 * **Design name:** Check that it includes a brief summary of the purpose, setup, and methodology of the library preparation. This should include the scientific goal, experimental conditions, and key steps in the library construction protocol.
@@ -39,7 +39,7 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ---
 
-### 4. **Runs and Associated Files** 
+4. **Runs and Associated Files** 
 (if any runs are registered in the submission)
 
 * Check the run type and files: file extensions must be correct for a `Run` object (`.fastq`, `.bam`, `.cram`, etc.).  
@@ -70,7 +70,7 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ---
 
-### 5. **Analyses and Associated Files** 
+5. **Analyses and Associated Files** 
 (if any analysis is registered in the submission)
 
 * Check the analysis type and files:  
@@ -90,7 +90,7 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ---
 
-### 6. **Dataset**
+6. **Dataset**
 
 * **Dataset title** should be a 3–20 word description of the dataset content.  
 * **Dataset description** should be a 3–4 sentence definition of the dataset, including the number of samples, file types, and technologies used.  
