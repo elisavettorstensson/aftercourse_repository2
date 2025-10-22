@@ -1,28 +1,28 @@
-
 ## Procedure
 
-1.  The assigned FEGA Sweden Helpdesk (HD member) releases the datasets in accordance with the recorded release date. 
+1. The assigned FEGA Sweden Helpdesk (HD member) releases the datasets in accordance with the recorded release date.  
 
-*Note: The release date can be adjusted if needed*
+   *Note: The release date can be adjusted if needed.*
 
-Steps:
-    -   Go to the **FEGA Sweden Helpdesk Portal**.
-    -   Locate the **pending submission** scheduled for release.
-    -   Verify that it is the **correct submission**, then click the **Approve** button.
-    -   A new message will appear in the Helpdesk Portal prompting approval of the related datasets.
+   **Steps:**
+   1. Go to the **FEGA Sweden Helpdesk Portal**.
+   2. Locate the **pending submission** scheduled for release.
+   3. Verify that it is the **correct submission**, then click the **Approve** button.
+   4. A new message will appear in the Helpdesk Portal prompting approval of the related datasets.
 
-2.  The assigned HD member informs the Submitter about the release by entering the following information in Redmine:
+2. The assigned HD member informs the Submitter about the release by entering the following information in Redmine:
+   - the actual release date, and  
+   - the URL to the Study and Dataset(s) on the EGA website.
 
-    -   the actual release date, and  
-    -   the URL to the Study and Dataset(s) on the EGA website.
+3. If there are any related emails in the **fega-sweden@nbis.se** mailbox:
+   - Transfer relevant information to the corresponding Redmine issue.  
+   - Move related emails (especially from the submitter or DAU) to the **Archive** folder in the mailbox by creating a new subfolder named with the issue number of the submission.
 
-3. If there are any related emails in the **fega-sweden@nbis.se** mailbox, the relevant information should be transferred to the corresponding Redmine issue. After doing so, related emails — especially those associated with the specific submission from the submitter or the DAU — should be moved to the **Archive** folder in the fega-sweden@nbis.se mailbox by creating a new subfolder named with the issue number of the submission.
-
-4. The assigned HD member changes the status of the submission request issue in Redmine by marking it as “Resolved”.  
+4. The assigned HD member changes the status of the submission request issue in Redmine by marking it as **“Resolved.”**
 
 ## Document history
 
 | Version | Date prepared | Author(s)            |
-|---------|---------------|----------------------|
-| 1       | 2024-04-23    | Elisavet Torstensson |
-| 2       | 2025-10-30    | Elisavet Torstensson |
+|----------|----------------|----------------------|
+| 1        | 2024-04-23     | Elisavet Torstensson |
+| 2        | 2025-10-30     | Elisavet Torstensson |
