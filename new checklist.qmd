@@ -9,14 +9,13 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ### 1. **Studies**
 
-* Study title should be a 3–20 word introduction of the project.  
-* Study description should be a 3–5 sentence definition of the project, including background, goals, and key details.  
-
+* **Study title** should be a 3–20 word introduction of the project.  
+* **Study description** should be a 3–5 sentence definition of the project, including background, goals, and key details.  
   * **IF** the title and description align with these criteria → **move on to the next object.**  
   * **IF** the title and/or description do not align (e.g., it is a copy of the title or does not describe the purpose of the study) → **return to the submitter for correction** and ask them to update the title and/or description, then re-finalize the submission.
 
 * **Rare cases**  
-  * **IF** the submission reuses an existing study, which will be referenced in the `experiment` object → **move on to the next object.**
+  * **IF** the submission reuses an existing study, which will be referenced in the experiment object → **move on to the next object.**
 
 ---
 
@@ -27,21 +26,21 @@ By following this checklist, reviewers and data stewards responsible for reviewi
   * **IF** personal data are present → **return to the submitter for correction** and ask them to remove all personal data, then re-finalize the submission.
 
 * **Rare cases**  
-  * **IF** there are no samples → this means that the submission is reusing existing samples and they will be referenced in the `runs` object. **Move on to the next object.**
+  * **IF** there are no samples → this means that the submission is reusing existing samples and they will be referenced in the runs object → **Move on to the next object.**
 
 ---
 
 ### 3. **Experiments**
 
 * The study ID can be new (no EGAD) or existing (`EGAD5XXX`, `EGAD000100XXX`). Both are acceptable.  
-* **Design name:** Check that it includes a brief summary of the purpose, setup, and methodology of the library preparation.  
-  This should include the scientific goal, experimental conditions, and key steps in the library construction protocol.
+* **Design name:** Check that it includes a brief summary of the purpose, setup, and methodology of the library preparation. This should include the scientific goal, experimental conditions, and key steps in the library construction protocol.
 
   * **IF** everything looks fine → **move on to the next object.**
 
 ---
 
-### 4. **Runs and Associated Files** (if any runs are registered in the submission)
+### 4. **Runs and Associated Files** 
+(if any runs are registered in the submission)
 
 * Check the run type and files: file extensions must be correct for a `Run` object (`.fastq`, `.bam`, `.cram`, etc.).  
   * **IF** the file extension corresponds to the selected run type (e.g., run type is `BAM` → file extension `.bam`) → **move on to the next object.**  
@@ -50,7 +49,7 @@ By following this checklist, reviewers and data stewards responsible for reviewi
     * **IF** it is an accepted file extension → **move on to the next object.**  
     * **IF** not listed → **return to the submitter for clarification** (check for a naming error or missing file type category).
 
-#### Files (Ingested Files)
+**Files (Ingested Files)**
 
 * **File size:**  
   * **IF** file size is `0 bytes` → **return to the submitter for correction** and ask them to re-upload the file.  
@@ -60,7 +59,7 @@ By following this checklist, reviewers and data stewards responsible for reviewi
   * **IF** the extension is `.c4gh` **only** → **return to the submitter** and ask them to rename their file from the INBOX.  
   * **IF** the extension is not listed in the [accepted file list](https://docs.google.com/document/d/1xXJGkQ36XRmR5qAI0hzljx4tS1PKri-FwRF7ufF46Mg/edit?tab=t.0#heading=h.g4sjsh593uea) → **return to the submitter for clarification.**
 
-#### CEGA-specific cases
+**CEGA-specific cases**
 
 * **Run ID:**  
   * **IF** the run ID is a central EGA object (`EGAX000...`) → **return to the submitter** and instruct them **not to reuse existing runs**. Contact the HD if needed.  
@@ -71,10 +70,11 @@ By following this checklist, reviewers and data stewards responsible for reviewi
 
 ---
 
-### 5. **Analyses and Associated Files** (if any analysis is registered in the submission)
+### 5. **Analyses and Associated Files** 
+(if any analysis is registered in the submission)
 
 * Check the analysis type and files:  
-  File extensions must be correct for the selected `Analysis` object (e.g., `.vcf`, `.phenotype`) and **must be encrypted** (i.e., have the `.c4gh` suffix).  
+  File extensions must be correct for the selected Analysis object (e.g., `.vcf`, `.phenotype`) and **must be encrypted** (i.e., have the `.c4gh` suffix).  
 
   * **IF** the extensions correspond to the selected analysis type (e.g., `sequence variation` → `.vcf`) → **move on to the next object.**  
   * **IF** extensions do not correspond or are unknown → [check accepted file extensions](https://docs.google.com/document/d/1xXJGkQ36XRmR5qAI0hzljx4tS1PKri-FwRF7ufF46Mg/edit?tab=t.0#heading=h.g4sjsh593uea):  
