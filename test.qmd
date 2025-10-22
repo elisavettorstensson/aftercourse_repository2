@@ -1,31 +1,21 @@
-## Procedure
+## Procedure 
 
-1.  The assigned FEGA Sweden Helpdesk (HD member) releases the datasets in accordance with the recorded release date. 
+Note: the assigned HD member can ask the co-handling HD member for assistance in any of the steps below.
 
-*Note: The release date can be adjusted if needed*
+1.  The FEGA Sweden Helpdesk (HD) member changes the issue status to **“In Progress”** when starting to work on the issue.
 
-Steps:
+2.  The HD member **evaluates** if the submission request falls **within the scope of FEGA Sweden**:
 
-* Go to the **FEGA Sweden Helpdesk Portal**.
+    -   Is the data of a supported type? (see documentation on [preparing data](https://fega.nbis.se/submission/preparing-data.html))
+    -   Does sharing of the data require controlled access?
 
-* Locate the **pending submission** scheduled for release.
+3.  If the submission request falls **outside the scope of FEGA Sweden**, the HD member sets the issue status to “closed” and informs the submitter (via Redmine) about the decision to not proceed with the request, including a short motivation (see template [Decision to not proceed with out of scope submission](../text-templates/submission-text-templates.html#decision-to-not-proceed-with-out-of-scope-submission)).
 
-* Verify that it is the **correct submission**, then click the **Approve** button.
+4.  If the request falls **within the scope of FEGA Sweden**, the HD member contacts the submitter (via fega-sweden@nbis.se) to provide **additional information using the PDF form** for personal data and study information. The PDF form can be downloaded from the internal FEGA Sweden documentation (see [Submission Request Assessment Form](https://drive.google.com/drive/folders/1uFLk4j5dl4jRE5JGoKNuJJsNhQ1ydotL)). The submitter is instructed to fill out the form and return it together with all related ethics applications and approvals that help identify the data controller (personuppgiftsansvarig).
 
-* A new message will appear in the Helpdesk Portal prompting approval of the related datasets.
+5.  Once the form is received, the HD member uploads both the **completed PDF form** and the **ethical documentation** to the Redmine issue. The HD members review the uploaded material.
 
-2.  The assigned HD member informs the Submitter about the release by entering the following information in Redmine:
+6.  The HD member checks if Uppsala University has established a **general data processing agreement** with the data controller for depositing data in FEGA Sweden (see [existing general processing agreements](https://fega.nbis.se/submission/complying-with-gdpr.html#do-you-have-a-data-processing-agreement-with-us)). 
 
-    -   the actual release date, and  
-    -   the URL to the Study and Dataset(s) on the EGA website.
-
-3. If there are any related emails in the **fega-sweden@nbis.se** mailbox, the relevant information should be transferred to the corresponding Redmine issue. After doing so, related emails — especially those associated with the specific submission from the submitter or the DAU — should be moved to the **Archive** folder in the fega-sweden@nbis.se mailbox by creating a **new subfolder named with the issue number** of the submission.
-
-4. The assigned HD member changes the status of the submission request issue in Redmine by marking it as “Resolved”.  
-
-## Document history
-
-| Version | Date prepared | Author(s)            |
-|---------|---------------|----------------------|
-| 1       | 2024-04-23    | Elisavet Torstensson |
-| 2       | 2025-10-30    | Elisavet Torstensson |
+    - If such an agreement **exists**, proceed with step 7.
+    - If **no agreement exists**, the HD member informs the submitter that FEGA Sweden cannot accept their data until a general data processing agreement has been established between the parties.
