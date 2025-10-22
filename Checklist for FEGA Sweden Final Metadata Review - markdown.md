@@ -1,14 +1,4 @@
-# **Checklist for FEGA Sweden Final Metadata Review**
-
-Document Owner Mattias Strömberg, Elisavet Torstensson
-
-Version Version 2.0
-
-Effective date 25-06-2025
-
-Approvals
-
-Next revision due xx- xx-2025
+## Checklist for FEGA Sweden Final Metadata Review
 
 This checklist serves as a comprehensive guide for reviewing the metadata associated with FEGA Sweden submissions. It is designed to ensure consistency, accuracy, and compliance with the standards established by the central EGA for submission validation. By following this checklist, reviewers, data stewards responsible for reviewing the metadata before submission finalization in the submitter portal can collaboratively maintain the integrity of metadata records, streamline the submission process, and support the seamless integration of data within the European Genome-Phenome Archive (EGA).
 
@@ -16,8 +6,10 @@ This checklist serves as a comprehensive guide for reviewing the metadata associ
 * Study title should be a 3-20 word introduction of the project.   
 * Study description should be a 3-5 sentence definition of the project with some background, goals, and details.  
   * IF the title and description align with these criteria, **move on to the next object.**  
-    * IF the title or/and description does not align with these criteria (e.g. it is a copy of the title, it doesn’t describe the “why” of the study), **reject the submission** and ask the submitter to update/change the title or/and description and re-finalise the submission.  
-  * If the submission reuses an existing study, which will be referenced in the “experiment” object, you can move on to the next object.  
+  * IF the title or/and description does not align with these criteria (e.g. it is a copy of the title, it doesn’t describe the “why” of the study), **reject the submission** and ask the submitter to update/change the title or/and description and re-finalise the submission.  
+
+* **Rare cases**    
+  * IF the submission reuses an existing study, which will be referenced in the “experiment” object, you can move on to the next object.  
 2. **Samples**.   
 * Samples MUST NOT contain personal data (e.g., names, national ID numbers, addresses).  
   * IF the samples do not contain personal data, **move on to the next object.**  
@@ -28,7 +20,8 @@ This checklist serves as a comprehensive guide for reviewing the metadata associ
 3. **Experiments**.   
    * The study ID could be a new one (no EGAD) or an existing study (EGAD5XXX or EGAD000100XXX). All options are fine  
    * **Design name:** Check if the following have been completed:A brief summary of the purpose, setup, and methodology of the library preparation. This should include the scientific goal, experimental conditions, and key steps in the library construction protocol.   
-     * If everything looks fine, then **move on to the next object.**
+
+  * If everything looks fine, then **move on to the next object.**
 
 4. **Runs and associated files** (if any runs are registered in the submission).  
    * Check the run type and files: File extensions must be correct for a Run object (*fastq, bam, cram*…).   
@@ -46,8 +39,7 @@ This checklist serves as a comprehensive guide for reviewing the metadata associ
      * Otherwise, move to the next field  
    * Check the file extension.  
      * IF the extension is .c4gh only, THEN reject the submission and ask the submitter to rename their file from the INBOX.
-
-IF the file extension is not listed in the [accepted file](https://docs.google.com/document/d/1xXJGkQ36XRmR5qAI0hzljx4tS1PKri-FwRF7ufF46Mg/edit?tab=t.0#heading=h.g4sjsh593uea) list, THEN reject the submission and check with the submitter whether there is an error in the name of the file extension or if there is no category for their runs/files.
+     * IF the file extension is not listed in the [accepted file](https://docs.google.com/document/d/1xXJGkQ36XRmR5qAI0hzljx4tS1PKri-FwRF7ufF46Mg/edit?tab=t.0#heading=h.g4sjsh593uea) list, THEN reject the submission and check with the submitter whether there is an error in the name of the file extension or if there is no category for their runs/files.
 
 * **CEGA specific cases**   
   *  Check the run ID: IF the run ID is an EBI object (EGAX000), **THEN reject the submission**. Ask the submitter not to reuse existing runs and contact the HD.
@@ -71,6 +63,7 @@ IF the file extension is not listed in the [accepted file](https://docs.google.c
      * Check the analysis ID: IF the analysis ID is an EBI object (EGAX000), THEN reject the submission. Ask the submitter not to reuse existing analysis and contact the HD.
 
 6. **Dataset.**  
+
    * Dataset title should be a 3-20 word description of the dataset content.  
    * Dataset description should be a 3-4 sentence definition of the dataset content, including sample number and details, file type, and technology/experimentation used.  
      * IF the title and description align with these criteria, **move on to the next object.**  
@@ -78,4 +71,5 @@ IF the file extension is not listed in the [accepted file](https://docs.google.c
    * Check that the Policy is correct and belongs to the data controller.  
      * UU  **Policy**: EGAP50000000398  **DAC**: EGAC50000000433  
      * LU   **Policy:** EGAP50000000565 **DAC:** EGAC50000000619
+
 
