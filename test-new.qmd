@@ -4,11 +4,11 @@
 
    *Note: The release date can be adjusted if needed.*
 
-   **Steps:**
-   1. Go to the **FEGA Sweden Helpdesk Portal**.
-   2. Locate the **pending submission** scheduled for release.
-   3. Verify that it is the **correct submission**, then click the **Approve** button.
-   4. A new message will appear in the Helpdesk Portal prompting approval of the related datasets.
+   Steps:
+   a. Go to the **FEGA Sweden Helpdesk Portal**.
+   b. Locate the **pending submission** scheduled for release.
+   c. Verify that it is the **correct submission**, then click the **Approve** button.
+   d. A new message will appear in the Helpdesk Portal prompting approval of the related datasets.
 
 2. The assigned HD member informs the Submitter about the release by entering the following information in Redmine:
    - the actual release date, and  
