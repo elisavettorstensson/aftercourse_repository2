@@ -1,21 +1,22 @@
-## Procedure 
+## Supported File Formats
 
-Note: the assigned HD member can ask the co-handling HD member for assistance in any of the steps below.
+### Sequence Data
+| **Format** | **File suffix** |
+|-------------|-----------------|
+| **FASTQ** | `.fastq.gz / .fastq.bz2 / .fq.gz / .fq.bz2 / .txt.gz / .txt.bz2` |
+| **BAM** | `.bam / .bai` |
+| **CRAM** | `.cram / .crai` |
+| **VCF** | `.vcf / .bcf / .tbi / .csi` |
+| **SFF** | `.sff` |
+| **Complete Genomics** | `.asm.gz / .lib.gz / .map.gz` |
+| **PacBio HDF** | `.metadata.xml / .bas.h5 / .bax.h5` |
 
-1.  The FEGA Sweden Helpdesk (HD) member changes the issue status to **“In Progress”** when starting to work on the issue.
+---
 
-2.  The HD member **evaluates** if the submission request falls **within the scope of FEGA Sweden**:
-
-    -   Is the data of a supported type? (see documentation on [preparing data](https://fega.nbis.se/submission/preparing-data.html))
-    -   Does sharing of the data require controlled access?
-
-3.  If the submission request falls **outside the scope of FEGA Sweden**, the HD member sets the issue status to “closed” and informs the submitter (via Redmine) about the decision to not proceed with the request, including a short motivation (see template [Decision to not proceed with out of scope submission](../text-templates/submission-text-templates.html#decision-to-not-proceed-with-out-of-scope-submission)).
-
-4.  If the request falls **within the scope of FEGA Sweden**, the HD member contacts the submitter (via fega-sweden@nbis.se) to provide **additional information using the PDF form** for personal data and study information. The PDF form can be downloaded from the internal FEGA Sweden documentation (see [Submission Request Assessment Form](https://drive.google.com/drive/folders/1uFLk4j5dl4jRE5JGoKNuJJsNhQ1ydotL)). The submitter is instructed to fill out the form and return it together with all related ethics applications and approvals that help identify the data controller (personuppgiftsansvarig).
-
-5.  Once the form is received, the HD member uploads both the **completed PDF form** and the **ethical documentation** to the Redmine issue. The HD members review the uploaded material.
-
-6.  The HD member checks if Uppsala University has established a **general data processing agreement** with the data controller for depositing data in FEGA Sweden (see [existing general processing agreements](https://fega.nbis.se/submission/complying-with-gdpr.html#do-you-have-a-data-processing-agreement-with-us)). 
-
-    - If such an agreement **exists**, proceed with step 7.
-    - If **no agreement exists**, the HD member informs the submitter that FEGA Sweden cannot accept their data until a general data processing agreement has been established between the parties.
+### Array-Based Data
+| **Format** | **File suffix** |
+|-------------|-----------------|
+| **Array-based (IDAT/CEL)** | `.idat / .cel` |
+| **Array-based (TXT/GTC)** | `.txt / .gtc` |
+| **Array-based (Genotype / Expression)** | `.bim / .bam / .fam / .gen / .tsv / .csv / .gen / .txt` |
+| **Array-based (Generic / Additional files)** | `all formats supported` |
