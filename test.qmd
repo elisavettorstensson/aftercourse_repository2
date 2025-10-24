@@ -1,3 +1,119 @@
+## Checklist for FEGA Sweden Final Metadata Review
+
+This checklist serves as a comprehensive guide for reviewing the metadata associated with FEGA Sweden submissions.  
+It is designed to ensure consistency, accuracy, and compliance with the standards established by the central EGA for submission validation.  
+
+By following this checklist, helpdesk staff responsible for reviewing the metadata before submission finalisation in the Submitter Portal can collaboratively maintain the integrity of metadata records, streamline the submission process, and support the seamless integration of data within the European Genome-Phenome Archive (EGA).
+
+---
+
+### 1. Studies
+
+* **Study title** should be a 3–20 word introduction of the project.  
+* **Study description** should be a 3–5 sentence definition of the project, including background, goals, and key details.  
+  * **IF** the title and description align with these criteria → **move on to the next object.**  
+  * **IF** the title and/or description do not align (e.g., it is a copy of the title or does not describe the purpose of the study) → **return to the submitter for correction** and ask them to update the title and/or description, then re-finalise the submission.
+
+* **Rare cases**  
+  * **IF** the submission reuses an existing study, which will be referenced in the experiment object → **move on to the next object.**
+
+---
+
+### 2. Samples
+
+* Samples **must not** contain personal data (e.g., names, national ID numbers, addresses).  
+  * **IF** the samples do not contain personal data → **move on to the next object.**  
+  * **IF** personal data are present → **return to the submitter for correction** and ask them to remove all personal data, then re-finalize the submission.
+
+* **Rare cases**  
+  * **IF** there are no samples → this means that the submission is reusing existing samples and they will be referenced in the runs object → **Move on to the next object.**
+
+---
+
+### 3. Experiments
+
+* The study ID can be new (no EGAD) or existing (`EGAD5XXX`, `EGAD000100XXX`). Both are acceptable.  
+* **Design name:** Check that it includes a brief summary of the purpose, setup, and methodology of the library preparation. This should include the scientific goal, experimental conditions, and key steps in the library construction protocol.  
+
+  * **IF** everything looks fine → **move on to the next object.**
+
+---
+
+### 4. Runs and Associated Files
+*(if any runs are registered in the submission)*
+
+* Check the run type and files: file extensions must be correct for a `Run` object (`.fastq`, `.bam`, `.cram`, etc.).  
+  * **IF** the file extension corresponds to the selected run type (e.g., run type is `BAM` → file extension `.bam`) → **move on to the next object.**  
+  * **IF** the file extension does not correspond (e.g., run type is `FASTQ`, but file extension is `.txt`) → **return to the submitter for correction** and ask them to upload the correct files.  
+  * **IF** the file extension is unknown (e.g., `.srf`, `.rds`, `.h5`, `.h5Seurat`), [check the accepted file extensions at the end of this document]  
+    * **IF** it is an accepted file extension → **move on to the next object.**  
+    * **IF** not listed → **return to the submitter for clarification** (check for a naming error or missing file type category).
+
+**Files (Ingested Files)**
+
+* **File size:**  
+  * **IF** file size is `0 bytes` → **return to the submitter for correction** and ask them to re-upload the file.  
+  * **OTHERWISE** → move on to the next field.
+
+* **File extension:**  
+  * **IF** the extension is `.c4gh` **only** → **return to the submitter** and ask them to rename their file from the INBOX.  
+  * **IF** the extension is not in the list of accepted file extensions → **return to the submitter for clarification.**
+
+> **Note:** Other file formats may be acceptable for the submission if this has been **previously agreed within the FEGA Sweden Helpdesk team**.
+
+**CEGA-specific cases**
+
+* **Run ID:**  
+  * **IF** the run ID is a central EGA object (`EGAX000...`) → **return to the submitter** and instruct them **not to reuse existing runs**. Contact the HD if needed.  
+* **Sample:** can be new (no EGA ID) or existing (`EGAN000...`, `EGAN5...`). Move on to the next field.  
+* **Experiment:**  
+  * **IF** the experiment ID is a central EGA object (`EGAX000...`) → **return to the submitter** and ask them to create a new experiment.  
+  * **IF** it is a new or CRG object (`EGAX5...`) → **move on to the next object.**
+
+---
+
+### 5. Analyses and Associated Files
+*(if any analysis is registered in the submission)*
+
+* Check the analysis type and files:  
+  File extensions must be correct for the selected Analysis object (e.g., `.vcf`, `.phenotype`) and **must be encrypted** (i.e., have the `.c4gh` suffix).  
+
+  * **IF** the extensions correspond to the selected analysis type (e.g., `sequence variation` → `.vcf`) → **move on to the next object.**  
+  * **IF** extensions do not correspond or are unknown → [check the accepted file extensions at the end of this document]   
+    * **IF** accepted → **move on to the next object.**  
+    * **IF** not listed → **return to the submitter for clarification.**
+
+* **Rare cases**  
+  * The study ID can be new (no EGAD) or existing (`EGAD5XXX`, `EGAD000100XXX`) → **move on.**  
+  * The sample can be new (no EGA ID) or existing (`EGAN000...`, `EGAN5...`) → **move on.**
+
+* **CEGA-specific cases**  
+  * **IF** the analysis ID is a central EGA object (`EGAX000...`) → **return to the submitter** and instruct them **not to reuse existing analyses**. Contact the HD if needed.
+
+---
+
+### 6. Dataset
+
+* **Dataset title** should be a 3–20 word description of the dataset content.  
+* **Dataset description** should be a 3–4 sentence definition of the dataset, including the number of samples, file types, and technologies used.  
+
+  * **IF** title and description align → **move on to the next object.**  
+  * **IF** not (e.g., description is a copy of the title or lacks sample/technology info) → **return to the submitter for correction.**
+
+* **Check that the Policy is correct and belongs to the data controller:**
+
+  | Institution | Policy ID | DAC ID |
+  |--------------|------------|--------|
+  | UU | `EGAP50000000398` | `EGAC50000000433` |
+  | LU | `EGAP50000000565` | `EGAC50000000619` |
+
+---
+
+> **Note:**  
+> Identifiers starting with `EGAX000...`, `EGAN000...`, or `EGAC000...` indicate **central EGA objects** and must **not** be reused in FEGA Sweden submissions.
+
+---
+
 ## Supported File Formats
 
 This table lists the supported file formats and corresponding suffixes accepted by **FEGA Sweden** for submission validation.  
@@ -34,3 +150,4 @@ It is organized by data type to align with EGA’s classification of sequence, a
 | **Format** | **File suffix** |
 |-------------|-----------------|
 | **Phenotype files** | `all formats supported` |
+
