@@ -1,5 +1,12 @@
 ## Supported File Formats
 
+This table lists the supported file formats and corresponding suffixes accepted by **FEGA Sweden** for submission validation.  
+It is organized by data type to align with EGA’s classification of sequence, array-based, and phenotype data.  
+
+> **Note:** Other file formats may be acceptable for submission if this has been **previously agreed within the FEGA Sweden Helpdesk team**.
+
+---
+
 ### Sequence Data
 | **Format** | **File suffix** |
 |-------------|-----------------|
@@ -20,3 +27,10 @@
 | **Array-based (TXT/GTC)** | `.txt / .gtc` |
 | **Array-based (Genotype / Expression)** | `.bim / .bam / .fam / .gen / .tsv / .csv / .gen / .txt` |
 | **Array-based (Generic / Additional files)** | `all formats supported` |
+
+---
+
+### Phenotypes
+| **Format** | **File suffix** |
+|-------------|-----------------|
+| **Phenotype files** | `all formats supported` |
