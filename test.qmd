@@ -45,7 +45,7 @@ By following this checklist, helpdesk staff responsible for reviewing the metada
 * Check the run type and files: file extensions must be correct for a `Run` object (`.fastq`, `.bam`, `.cram`, etc.).  
   * **IF** the file extension corresponds to the selected run type (e.g., run type is `BAM` → file extension `.bam`) → **move on to the next object.**  
   * **IF** the file extension does not correspond (e.g., run type is `FASTQ`, but file extension is `.txt`) → **return to the submitter for correction** and ask them to upload the correct files.  
-  * **IF** the file extension is unknown (e.g., `.srf`, `.rds`, `.h5`, `.h5Seurat`), [check the accepted file extensions at the end of this document]  
+  * **IF** the file extension is unknown (e.g., `.srf`, `.rds`, `.h5`, `.h5Seurat`), [See the *Supported File Formats* section at the end of this document for the list of accepted file extensions.](#supported-file-formats)
     * **IF** it is an accepted file extension → **move on to the next object.**  
     * **IF** not listed → **return to the submitter for clarification** (check for a naming error or missing file type category).
 
